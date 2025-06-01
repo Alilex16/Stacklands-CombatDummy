@@ -1,0 +1,14 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "lex_blueprint_combat_dummy",
+    "nameTerm": "lex_combat_dummy_name",
+    "group": "Building",
+    "subprints": [
+        {
+            "RequiredCards": "wood, stick, stick, stick, any_villager",
+            "ResultCard": "lex_combat_dummy",
+            "Time": 15,
+            "StatusTerm": "lex_combat_dummy_status"
+        }
+    ]
+}

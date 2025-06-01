@@ -1,0 +1,6 @@
+Term	Notes	English
+lex_combat_dummy_name		Combat Dummy
+lex_combat_dummy_description		Test out your combat capabilities. Doesn't hit back.<br><br>Click: Remove equipment<br>Alt+click: Reset tracking<br>Shift+click: Reset all
+lex_combat_dummy_description_long		Defense: [defense]<br><br>Time in training: [time]<br>Hits: [hits]<br>Missed: [missed]<br>Blocked: [blocked]<br>Highest: [highest]<br>Average: [average]<br>DPS: [dps]<br>Total damage done: [total]
+lex_combat_dummy_description_fake		Test out your combat capabilities. Doesn't hit back.
+lex_combat_dummy_status		Building a Combat Dummy

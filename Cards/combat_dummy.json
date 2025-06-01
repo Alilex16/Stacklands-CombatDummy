@@ -1,0 +1,17 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "lex_combat_dummy",
+    "nameTerm": "lex_combat_dummy_name",
+    "descriptionTerm": "lex_combat_dummy_description_fake",
+    "icon": "combat_dummy.png",
+    "value": 3,
+    "type": "Structures",
+    "script": "CombatDummyLexNS.CombatDummy",
+    "_IsBuilding": true,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+      "Color": "#a69369",
+      "Color2": "#eed7a6",
+      "Icon": "#000000"
+  }
+}
