@@ -55,7 +55,7 @@ namespace CombatDummyLexNS
 
         public override bool CanMove => false;
 
-        protected override bool CanHaveCard(CardData otherCard) => otherCard is Villager || otherCard is Equipable;
+        protected override bool CanHaveCard(CardData otherCard) => otherCard is Villager || otherCard is CitiesCombatable || otherCard is Equipable;
         
         public override bool CanBePushedBy(CardData otherCard) { return false; }
 
