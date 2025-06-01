@@ -40,7 +40,6 @@ namespace CombatDummyLexNS
     
     public class CombatDummy : Mob
     {
-        // public bool fixIdeaDescription = false;
         public bool hasReset = false;
 
         public float TrackingTimeInTraining;
@@ -63,7 +62,6 @@ namespace CombatDummyLexNS
 
         protected override void Awake()
         {
-            // fixIdeaDescription = true;
             base.Awake();
 
             CanAttack = false;
@@ -110,17 +108,11 @@ namespace CombatDummyLexNS
 
         public override void UpdateCardText()
         {
-            // if (!fixIdeaDescription) // so the idea keeps the original description
-            // {
-            //     return;
-            // }
-
 		    GameCard myGameCard = MyGameCard;
             if ((object)myGameCard == null)
             {
                 return;
             }
-
 
             descriptionOverride = SokLoc.Translate("lex_combat_dummy_description");
 
